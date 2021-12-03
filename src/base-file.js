@@ -63,7 +63,6 @@ class BaseFile extends React.Component {
   }
 
   handleFileClick = (event) => {
-    event && event.preventDefault()
     this.props.browserProps.preview({
       url: this.props.url,
       name: this.getName(),

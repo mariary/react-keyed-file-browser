@@ -85,7 +85,7 @@ class RawTableFile extends BaseFile {
             {draggable}
           </div>
         </td>
-        <td className="size">{fileSize(size)}</td>
+        <td className="size">{size ? fileSize(size) : ''}</td>
         <td className="modified">
           {typeof modified === 'undefined' ? '-' : formatDistanceToNow(modified, { addSuffix: true })}
         </td>

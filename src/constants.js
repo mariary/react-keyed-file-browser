@@ -39,7 +39,8 @@ const FILETYPE_EXTENSIONS = {
   ],
   Word: [
     'doc',
-    'docx',
+    'docx',         
+     'rtf',
   ],
   Code: [
     'js',
