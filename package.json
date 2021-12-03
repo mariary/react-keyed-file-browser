@@ -28,6 +28,9 @@
     "browser",
     "s3"
   ],
+  "publishConfig": {
+    "@mariary:registry": "https://npm.pkg.github.com"
+  },
   "author": "Uptick Pty Ltd",
   "license": "MIT",
   "bugs": {
